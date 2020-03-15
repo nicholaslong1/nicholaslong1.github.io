@@ -1,0 +1,329 @@
+html {
+min-width:250px;
+}
+
+html {
+font-family:'Raleway',sans-serif;
+margin:none;
+width:100vw;
+}
+
+body {
+background-color:#fff;
+display:block;
+margin:1%;
+width:100%;
+}
+
+#nav {
+background-color:#fff;
+display:block;
+text-align:center;
+}
+
+#name {
+display:block;
+padding:1em;
+vertical-align:top;
+}
+
+#name_img {
+height:5em;
+}
+
+.h_nav {
+-webkit-transition-duration:.4s;
+background-color:#fff;
+border:none;
+color:#000;
+display:inline-block;
+font-size:32px;
+padding:2em;
+text-decoration:none;
+transition-duration:.4s;
+vertical-align:top;
+}
+
+.h_nav:visited {
+text-decoration:none;
+}
+
+.h_nav:hover {
+color:#b4e1ff;
+}
+
+#footer {
+background: transparent;
+bottom:0;
+font-size:24px;
+margin-bottom:0;
+text-align:center;
+width:100%;
+}
+
+#content {
+display:block;
+margin-left:5vw;
+margin-right:5vw;
+margin-top:3em;
+}
+
+#profile {
+background-color:#fff;
+display:flex;
+padding-left:1em;
+padding-right:1em;
+}
+
+#insta {
+display:inline-block;
+margin-right:5vw;
+margin-top:1vw;
+width:50%;
+}
+
+#welcome {
+display:inline-block;
+float:right;
+font-size:34px;
+overflow-wrap:break-word;
+word-wrap:normal;
+}
+
+#projects {
+display:block;
+position:static;
+text-align:center;
+}
+
+#workinprogress {
+text-align:center;
+}
+/*Contact*/
+.contact_label {
+padding-bottom:1em;
+padding-right:3em;
+text-align:left;
+vertical-align:top;
+}
+
+.contact_input {
+color:red;
+padding-bottom:1em;
+text-align:right;
+}
+
+#contact_article {
+padding-bottom:2em;
+text-align:center;
+}
+
+#contact {
+display:block;
+margin-left:5vw;
+margin-right:5vw;
+padding-top:2em;
+}
+
+#contact_table {
+display:block;
+text-align:center;
+width:100%;
+}
+
+#sendemail {
+text-align:left;
+}
+
+#sendemail>button {
+background-color:#b4e1ff;
+border:none;
+padding:1em;
+}
+
+.contact_input>input,textarea {
+border:1px solid grey;
+}
+/*Projects*/
+#filterList{
+margin-left:15vw;
+margin-right:30vw;
+}
+.activefilter{
+background-color:#ceebff;
+border:none;
+padding:1em
+}
+.filter {
+background-color:#b4e1ff;
+border:none;
+padding:1em;
+}
+
+
+@media only screen and (min-width: 1250px) {
+html {
+font-family:'Raleway',sans-serif;
+min-width:1000px;
+}
+
+body {
+background-color:#fff;
+display:block;
+margin:1%;
+width:auto;
+}
+
+#nav {
+background-color:#fff;
+margin-left:15vw;
+margin-right:15vw;
+text-align:right;
+}
+
+#name {
+display:inline-block;
+float:left;
+padding:1em;
+vertical-align:top;
+}
+
+#name_img {
+height:5em;
+width:auto;
+}
+
+.h_nav {
+-webkit-transition-duration:.4s;
+background-color:#fff;
+border:none;
+color:#000;
+display:inline-block;
+font-size:18px;
+padding:2em;
+text-decoration:none;
+transition-duration:.4s;
+vertical-align:top;
+}
+
+.h_nav:visited {
+text-decoration:none;
+}
+
+.h_nav:hover {
+color:#b4e1ff;
+}
+
+#footer {
+background-color:transparent;
+bottom:0;
+font-size:12px;
+margin-bottom:0;
+text-align:center;
+width:100%;
+}
+
+#content {
+display:block;
+margin-left:15vw;
+margin-right:15vw;
+margin-top:3em;
+}
+
+#profile {
+background-color:#fff;
+display:flex;
+padding-left:1em;
+padding-right:1em;
+}
+
+#insta {
+display:inline-block;
+margin-right:5vw;
+margin-top:1vw;
+}
+
+#welcome {
+display:inline-block;
+float:right;
+font-size:16px;
+overflow-wrap:break-word;
+word-wrap:normal;
+}
+
+.adsbygoogle {
+margin-left:15vw;
+margin-right:15vw;
+}
+
+#projects {
+display:block;
+position:static;
+text-align:center;
+}
+
+#workinprogress {
+text-align:center;
+}
+
+/*Contact*/
+.contact_label {
+padding-bottom:1em;
+padding-right:3em;
+text-align:left;
+vertical-align:top;
+}
+
+.contact_input {
+color:red;
+padding-bottom:1em;
+text-align:right;
+}
+
+.contact_input>input,textarea {
+border:1px solid grey;
+}
+
+#contact_article {
+padding-bottom:2em;
+text-align:center;
+}
+
+#contact {
+display:block;
+margin-left:5vw;
+margin-right:5vw;
+padding-top:2em;
+}
+
+#contact_table {
+display:block;
+text-align:center;
+width:100%;
+}
+
+#sendemail {
+text-align:left;
+}
+
+#sendemail>button {
+background-color:#b4e1ff;
+border:none;
+padding:1em;
+}
+/*Projects*/
+#filterList{
+text-align: left;
+margin-right:30vw;
+}
+.activefilter{
+background-color:#ceebff;
+border:none;
+padding:1em
+}
+.filter {
+background-color:#b4e1ff;
+border:none;
+padding:1em;
+}
+}
