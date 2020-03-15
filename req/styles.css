@@ -51,12 +51,10 @@ color:#b4e1ff;
 
 #footer {
 background-color:transparent;
-position: absolute;
-bottom:0;
 font-size:12px;
 margin-bottom:0;
 text-align:center;
-width:100%;
+width: inherit;
 }
 
 #content {
