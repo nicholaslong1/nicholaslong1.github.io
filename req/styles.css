@@ -2,7 +2,7 @@
 	color-scheme: light dark;
 }
 :root, .light-theme {
-    --content-bg-color:#f2f2f2;
+    --content-bg-color:#f5f5f5;
     --bg-color: #FFFFFF;
     --alt-bg-color: #f7f7f7;
     --trans-alt-bg-color: #f7f7f7cc;
@@ -51,7 +51,7 @@ background-color:var(--content-bg-color);
 margin-left:15vw;
 margin-right:15vw;
 text-align:right;
-box-shadow:0.5vw 0.5vw var(--nav-bottom-border);
+box-shadow:10px 10px var(--nav-bottom-border);
 border-radius: 5px;
 }
 
@@ -89,13 +89,7 @@ text-decoration:none;
 color:var(--nav-hover-color);
 }
 @media (max-width: 490px) {
-  #nav{
-    text-align: left;
-    display: block;
-  }
-  #name{
-    text-align: center;
-  }
+
 }
 
 #footer {
@@ -121,7 +115,7 @@ display:flex;
 padding-left:2vw;
 padding-right:2vw;
 border-radius: 5px;
-box-shadow:0.5vw 0.5vw var(--nav-bottom-border);
+box-shadow:10px 10px var(--nav-bottom-border);
 }
 
 #insta {
