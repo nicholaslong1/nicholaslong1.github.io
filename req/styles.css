@@ -47,14 +47,15 @@ body {
 	line-height: 1.125em;
 }
 
-#nav {
-	padding: 1em;
+.nav {
 	background-color:var(--content-bg-color);
-	margin-left:15em;
-	margin-right:15em;
-	text-align:right;
 	box-shadow:10px 10px var(--nav-bottom-border);
+	padding: 10px;
+	margin-left:10vw;
+	margin-right:10vw;
+	text-align:right;
 	border-radius: 5px;
+	height: 6em;
 }
 
 #name {
@@ -69,11 +70,29 @@ body {
 	width:auto;
 }
 
+.links .icon{
+	color: var(--text-color);
+	padding: 1em;
+	padding-top: 1.75em;
+	display: none;
+}
+@media screen and (max-width:1500px){
+	.links a{
+		display: none;
+	}
+	.links a.icon{
+		display: inline-block;
+	}
+	#welcome{
+		white-space: normal;
+	}
+
+}
 .h_nav {
-	-webkit-transition-duration:.4s;
 	background-color:var(--content-bg-color);
-	border:none;
 	color:var(--nav-text-color);
+	-webkit-transition-duration:.4s;
+	border:none;
 	display:inline-block;
 	font-size:1.125em;
 	padding:2em;
@@ -91,7 +110,7 @@ body {
 	color:var(--nav-hover-color);
 }
 
-#footer {
+.footer {
 	color: var(--text-color);
 	background-color:transparent;
 	font-size:0.75em;
@@ -100,31 +119,29 @@ body {
 	width: inherit;
 }
 
-#content {
+.content {
 	display:block;
-	margin-left:15em;
-	margin-right:15em;
+	margin-left:10vw;
+	margin-right:10vw;
 	margin-top:1.5em;
 }
 
+
+/*INDEX*/
 #inner_content {
 	background-color:var(--content-bg-color);
 	color: var(--text-color);
+	box-shadow:10px 10px var(--nav-bottom-border);
 	display: flex;
 	padding: 2em;
 	border-radius: 5px;
-	box-shadow:10px 10px var(--nav-bottom-border);
 }
-
-/*INDEX*/
 #portrait{
 	padding: 1em;
-}
-#portrait > img {
 	height: 25em;
 	width: auto;
+	float: left;
 }
-
 #welcome {
 	display:inline-block;
 	float:right;

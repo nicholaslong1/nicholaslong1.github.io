@@ -9,29 +9,33 @@
     <link rel="stylesheet" href="req/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" type="image/ico" href="req/logo.png">
+    <script src="https://kit.fontawesome.com/848d8a97d4.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="req/script.js" type="text/javascript"></script>
   </head>
-  <nav id="nav">
+  <nav class="nav" id="nav">
     <div id="name">
       <img id="name_img" src="req/name.png"></img>
     </div>
-    <div>
+    <div class="links">
       <a href="" class="h_nav">Home</a>
       <a href="" class="h_nav">Technology</a>
       <a href="" class="h_nav">Cooking</a>
       <a href="" class="h_nav">Photography</a>
       <a href="" class="h_nav">Contact</a>
+      <a onclick="navBar" class="h_nav icon">
+        <i class="fas fa-bars fa-2x"></i>
+      </a>
     </div>
+
   </nav>
   <!-- CONTENT -->
-  <div id='content'>
+  <div class='content'>
     <!--PROFILE SECTION-->
     <div id="inner_content">
-      <div id="portrait">
-        <img src="req/portrait.jpeg"></img>
-      </div>
       <div id="welcome">
+        <span><img id="portrait" src="req/portrait.jpeg"></img></span>
+        <span>
         <p><b>Hello! </b>My name is Nicholas but most people just call
           me Nick. I developed this site to try and refine my
           web development skills and share some of the things I love.
@@ -66,9 +70,10 @@
         </p>
         <img src="req/logo.png" width="50px">
       </div>
+    </span>
     </div>
     <!--PROFILE SECTION END-->
-    <div id="footer">
+    <div class="footer">
       <p> Nicholas Long &copy; 2020 </p>
     </div>
   </div>
