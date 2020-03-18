@@ -1,8 +1,8 @@
 function navBar(){
-  var ele = document.getElementById("nav");
-  if (ele.className == "nav"){
-    ele.className += " collapsed";
+  var ele = document.getElementById("links");
+  if (ele.className == "links"){
+    ele.className += " expanded";
   } else {
-    ele.className = "nav";
+    ele.className = "links";
   }
 }
