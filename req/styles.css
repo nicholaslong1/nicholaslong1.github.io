@@ -39,6 +39,7 @@ html {
 }
 body {
 	background-color: var(--bg-color);
+	overflow-x: hidden;
 	display:block;
 	margin:1%;
 	width:auto;
@@ -127,8 +128,17 @@ body {
 	#welcome p{
 		font-size: 1.125em;
 	}
+	#welcome{
+		display: block;
+		text-align: left;
+	}
+	#portrait{
+		float: none;
+	}
+	#inner_content{
+		display: block;
+	}
 }
-
 
 .footer {
 	color: var(--text-color);
