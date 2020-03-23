@@ -37,6 +37,7 @@
 html {
 	font-family:'Raleway',sans-serif;
 }
+
 body {
 	background-color: var(--bg-color);
 	overflow-x: hidden;
@@ -48,6 +49,31 @@ body {
 	min-width: 550px;
 }
 
+.content {
+	display:block;
+	margin-left:10vw;
+	margin-right:10vw;
+	margin-top:1.5em;
+}
+
+.inner_content {
+	background-color:var(--content-bg-color);
+	color: var(--text-color);
+	box-shadow:10px 10px var(--nav-bottom-border);
+	display: flex;
+	padding: 2em;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+.footer {
+	color: var(--text-color);
+	background-color:transparent;
+	font-size:0.75em;
+	margin-bottom:0;
+	text-align:center;
+	width: inherit;
+}
 /*Nav*/
 .nav {
 	background-color:var(--content-bg-color);
@@ -59,16 +85,19 @@ body {
 	border-radius: 5px;
 	height: 6em;
 }
-#name {
+
+.name {
 	display:inline-block;
 	float:left;
 	padding:1em;
 	vertical-align:top;
 }
-#name_img {
+
+.name_img {
 	height:5em;
 	width:auto;
 }
+
 .h_nav {
 	background-color:var(--content-bg-color);
 	color:var(--nav-text-color);
@@ -132,41 +161,10 @@ body {
 		display: block;
 		text-align: left;
 	}
-	#portrait{
-		float: none;
-	}
-	#inner_content{
-		display: block;
-	}
-}
-
-.footer {
-	color: var(--text-color);
-	background-color:transparent;
-	font-size:0.75em;
-	margin-bottom:0;
-	text-align:center;
-	width: inherit;
-}
-
-.content {
-	display:block;
-	margin-left:10vw;
-	margin-right:10vw;
-	margin-top:1.5em;
 }
 
 
 /*INDEX*/
-#inner_content {
-	background-color:var(--content-bg-color);
-	color: var(--text-color);
-	box-shadow:10px 10px var(--nav-bottom-border);
-	display: flex;
-	padding: 2em;
-	border-radius: 5px;
-	font-size: 1em;
-}
 #portrait{
 	padding: 1em;
 	height: 30vw;
@@ -179,7 +177,9 @@ body {
 	overflow-wrap:break-word;
 	word-wrap:normal;
 }
-/*MOBILE*/
-@media (max-width: 490px) {
 
+/*Technology*/
+.placeholder{
+	width: 100%;
+	text-align: center;
 }
